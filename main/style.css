@@ -1,0 +1,102 @@
+.centralizer{
+    margin:0 auto;
+    font-family:"Trebuchet MS", "Helvetica", sans-serif;
+}
+
+.textarea{
+    display:block;
+    width:700px;
+    height:200px;
+    margin:10px auto 10px;
+    padding:10px;
+    font-size:18px;
+    color:#444444;
+}
+
+.description,.language,.title{
+    margin:20px auto;
+    text-align:center;
+}
+
+.title{
+    font-size:30px;
+    color:rgb(17 118 34 / 80%);
+}
+
+.keyboard{
+    width:704px;
+    margin:0 auto;
+    padding:5px;
+    padding-left:0;
+    padding-bottom:0;
+    background:#6e6e6a;
+    border:3px solid #222222;
+    border-radius:5px;
+    z-index: 1;
+}
+
+.keyboard .button{
+    width:40px;
+    height:40px;
+    margin-left:6px;
+    margin-top: -2px;
+    margin-bottom: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    display: inline-block;
+    font-weight:700;
+    text-align:center;
+    color:#9dff91;
+    background:#37360f;
+    border-radius:30px;
+    border: 2px solid #37360f;
+    box-shadow: 1px 1px black, 1px 1px black;
+    cursor:pointer;
+    transition:border-radius 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  animation: upDown 0.1s;
+}
+
+button:active,.pressed {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 black, 0 0 black, 1px 1px 1px 1px gray;
+}
+
+.keyboard .button:hover{
+    background:#79aa89;
+}
+
+.keyboard .button.active{
+    background-color:#2cfd72;
+    border-radius:50px;
+}
+
+.keyboard .AltLeft,.keyboard .AltRight,.keyboard .ArrowUp,.keyboard .ArrowLeft,.keyboard .ArrowDown,.keyboard .ArrowRight,.keyboard .Backspace,.keyboard .CapsLock,.keyboard .ControlLeft,.keyboard .ControlRight,.keyboard .Delete,.keyboard .Enter,.keyboard .ShiftLeft,.keyboard .ShiftRight,.keyboard .Tab,.keyboard .MetaLeft{
+    font-weight:700;
+    background-color:#000000;
+}
+
+.keyboard .Tab{
+    width:50px;
+}
+
+.keyboard .Backspace,.keyboard .CapsLock,.keyboard .ShiftLeft{
+    width:100px;
+}
+
+.keyboard .Delete{
+    width:44px;
+}
+
+.keyboard .Enter,.keyboard .ShiftRight{
+    width:86px;
+}
+
+.keyboard .Space{
+    width:330px;
+    padding-bottom: 12px;
+}
+

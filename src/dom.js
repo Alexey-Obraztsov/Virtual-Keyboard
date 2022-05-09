@@ -10,7 +10,7 @@ export default class Dom {
       h1.classList.add('title');
       this.content.append(h1);
       const textarea = document.createElement('textarea');
-      textarea.classList.add('body--textarea textarea');
+      textarea.classList.add('textarea');
       this.content.append(textarea);
   
       const description = document.createElement('p');

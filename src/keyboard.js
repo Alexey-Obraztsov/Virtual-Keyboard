@@ -13,8 +13,7 @@ export default class Keyboard {
 
   generateButtons() {
     this.keyboard = document.createElement('div');
-    this.keyboard.classList.add('body--keyboard keyboard');
-    this.keyboard.id.add('keyboard');
+    this.keyboard.classList.add('keyboard');
     for (let i = 0; i < buttonsList.length; i += 1) {
       const current = buttonsList[i];
       const key = new Key(this.language, current.codeName, current.eng, current.rus);
